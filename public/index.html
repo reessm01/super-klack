@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>klack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div id="userpane">
+        <h1>klack</h1>
+        <div id="users"></div>
+    </div>
+    <div id="mainpane">
+        <div id="messageslist">
+            <div id="messageheader">This is the very beginning of the conversation.</div>
+        </div>
+        <textarea id="newmessage" rows=3 cols=80 placeholder="Type your message here" autofocus></textarea>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
