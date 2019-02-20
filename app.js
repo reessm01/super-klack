@@ -54,9 +54,9 @@ klackModel.find(function (err, entries) {
 
 http.listen(3000, () => console.log('Listening on ' + port))
 
-app.get('/', function (req, res) {
-  res.sendFile('./public' + '/index.html');
-});
+// app.get('/', function (req, res) {
+//   res.sendFile('./public' + '/index.html');
+// });
 
 io.on('connection', (socket) => {
   console.log('A user connected.')
