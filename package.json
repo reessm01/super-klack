@@ -23,7 +23,7 @@
   "homepage": "https://github.com/KenzieAcademy/klack#readme",
   "dependencies": {
     "dependencies": "0.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mongo-server": "^0.1.5",
     "mongodb": "^3.1.13",
     "mongoose": "^5.4.11",
